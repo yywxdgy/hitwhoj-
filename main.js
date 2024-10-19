@@ -19,7 +19,7 @@ async function run(id) {
     let file = path.resolve(__dirname, './main.cpp');
     fs.readFile(file, 'utf8', (err, data) => {
         if (err) throw err;
-        codes = String(data).replaceAll("    ", "");
+        codes = String(data);
     });
 
     // console.log("Done.");
@@ -46,12 +46,11 @@ async function run(id) {
     await page.waitForSelector(language);
     await page.select(language, 'cpp');
     await page.click(block);
+    
     const lines = text.split('\n');
     for (const line of lines) {
         const te = String(line);
         await page.keyboard.type(te);
-        await page.keyboard.press('Delete');
-        await page.keyboard.press('Delete');
     }
     await page.waitForSelector(submit);
     await page.click(submit);
