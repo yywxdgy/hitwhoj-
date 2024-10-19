@@ -8,6 +8,8 @@ npm install
 
 - 修改目标代码：将 `main.cpp` 替换为要提交的代码。
 
+- 替换账号 `Cookie`：通过类似 `EditThisCookie` 这种插件或工具得到自己账号的 `cookie`，并且粘贴进 `cookies.json` 中。
+
 - 开始测试（参数均为数字）
 
 ~~~
