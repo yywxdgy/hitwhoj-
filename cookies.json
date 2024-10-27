@@ -1,30 +1,30 @@
 [
-   {
-      "domain": "1.94.128.12",
-      "expirationDate": 1763641843.000597,
-      "hostOnly": true,
-      "httpOnly": true,
-      "name": "session",
-      "path": "/",
-      "sameSite": "strict",
-      "secure": false,
-      "session": false,
-      "storeId": "0",
-      "value": "fffa8ed5-db28-48d8-b5d1-c7922997acc7",
-      "id": 1
-   },
-   {
-      "domain": "1.94.128.12",
-      "expirationDate": 1760687607.029761,
-      "hostOnly": true,
-      "httpOnly": false,
-      "name": "theme",
-      "path": "/",
-      "sameSite": "lax",
-      "secure": false,
-      "session": false,
-      "storeId": "0",
-      "value": "light",
-      "id": 2
-   }
-   ]
+    {
+        "domain": "localhost",
+        "expirationDate": 1764511567.735504,
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "session",
+        "path": "/",
+        "sameSite": "strict",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "51a4d1b1-6934-4a5c-bcdb-88cb35b7d273",
+        "id": 1
+    },
+    {
+        "domain": "localhost",
+        "expirationDate": 1761542462.536809,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "theme",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "light",
+        "id": 2
+    }
+    ]
